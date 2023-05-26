@@ -1,3 +1,9 @@
+:root {
+  --logo-color: #2e2f42;
+  --logo-fooetr:#4d5ae5;
+  --fooetr-color:#f4f4fd ;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
@@ -9,11 +15,9 @@ a {
 ul {
   list-style: none;
 }
-:root {
-  --logo-color: #2e2f42;
-  --logo-fooetr:#4d5ae5;
-  --fooetr-color:#f4f4fd ;
-}
+.link {text-decoration: none;}
+.list{list-style: none;}
+ 
 /*--header--*/
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -53,7 +57,7 @@ ul {
   text-align: center;
 }
 .hero-btn {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -107,6 +111,8 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 .team-list {
 }
