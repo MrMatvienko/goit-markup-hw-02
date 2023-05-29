@@ -138,9 +138,9 @@ ul {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  background-color: #ffffff;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-list-item {
 }
@@ -217,7 +217,7 @@ ul {
 .menu-item {
 }
 .item-btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -226,14 +226,17 @@ ul {
   cursor: pointer;
 }
 .item-btn:hover {
-  background: #f4f4fd;
+  background: var(--fooetr-color);
+  color: #ffffff;
+}
+.item-btn:focus {
+  color: #ffffff;
 }
 .item-btn:active {
   background: var(--header-menu-link);
 }
 /*----------PORTFOLIO----------*/
-.portfolio {
-}
+
 .portfolio-item {
 }
 .portfolio-title {
