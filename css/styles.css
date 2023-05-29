@@ -4,6 +4,7 @@
   --fooetr-color: #f4f4fd;
   --header-adress-color: #434455;
   --header-menu-link: #404bbf;
+  --background-color: #ffffff;
 }
 
 body {
@@ -171,7 +172,7 @@ ul {
   text-transform: uppercase;
   color: var(--logo-fooetr);
 }
-.footer-span span {
+.footer-logo-link span {
   color: #f4f4fd;
 }
 .footer-text {
@@ -268,7 +269,7 @@ ul {
   text-transform: uppercase;
   color: var(--logo-fooetr);
 }
-.footer-span span {
+..footer-logo-link span {
   color: #f4f4fd;
 }
 .footer-text {
