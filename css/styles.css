@@ -172,7 +172,7 @@ ul {
   text-transform: uppercase;
   color: var(--logo-fooetr);
 }
-.footer-logo-link span {
+.footer-span span {
   color: var(--fooetr-color);
 }
 .footer-text {
@@ -224,13 +224,15 @@ ul {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  background-color: var(--fooetr-color);
 }
 .item-btn:hover {
-  background: var(--fooetr-color);
+  background: var(--header-menu-link);
   color: #ffffff;
 }
 .item-btn:focus {
   color: #ffffff;
+  background: var(--header-menu-link);
 }
 .item-btn:active {
   background: var(--header-menu-link);
@@ -267,7 +269,7 @@ ul {
   text-transform: uppercase;
   color: var(--logo-fooetr);
 }
-.footer-logo-link span {
+.footer-span span {
   color: var(--fooetr-color);
 }
 .footer-text {
