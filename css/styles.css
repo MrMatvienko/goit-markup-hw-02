@@ -140,7 +140,6 @@ ul {
   text-transform: capitalize;
 }
 .team-list {
-  background-color: #ffffff;
 }
 .team-list-item {
 }
@@ -173,7 +172,7 @@ ul {
   color: var(--logo-fooetr);
 }
 .footer-span span {
-  color: var(--fooetr-color);
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
@@ -270,7 +269,7 @@ ul {
   color: var(--logo-fooetr);
 }
 .footer-span span {
-  color: var(--fooetr-color);
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
