@@ -141,8 +141,7 @@ ul {
   text-transform: capitalize;
 }
 .team-list {
-}
-.team-list-item {
+  background-color: #ffffff;
 }
 .team-name {
   font-weight: 500;
