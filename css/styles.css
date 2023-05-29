@@ -45,6 +45,12 @@ ul {
   letter-spacing: 0.02em;
   color: var(--logo-color);
 }
+.header-menu-link:hover {
+  color: var(--header-menu-link);
+}
+.header-menu-link:focus {
+  color: var(--header-menu-link);
+}
 .header-address {
   font-style: normal;
 }
@@ -54,11 +60,11 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-menu-link:hover {
-  background-color: var(--header-menu-link);
+.header-address-link:hover {
+  color: var(--header-menu-link);
 }
-.header-menu-link:focus {
-  background-color: var(--header-menu-link);
+.header-address-link:focus {
+  color: var(--header-menu-link);
 }
 /*--hero--*/
 .hero {
@@ -82,7 +88,10 @@ ul {
   cursor: pointer;
   background-color: #4d5ae5;
 }
-.hero-btn:hover .hero-btn:focus {
+.hero-btn:hover {
+  background-color: var(--header-menu-link);
+}
+.hero-btn:focus {
   background-color: var(--header-menu-link);
 }
 /*----About us----*/
@@ -129,6 +138,7 @@ ul {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  background-color: #ffffff;
 }
 .team-list {
 }
